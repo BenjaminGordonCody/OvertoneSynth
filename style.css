@@ -1,0 +1,58 @@
+/* Imports */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500&family=Sawarabi+Mincho&display&family=Bebas+Neue&display==swap");
+
+body {
+  background-image: url(./images/stars.png);
+  background-size: 5000%;
+  background-position: 0 0;
+  transition: background-position 1s;
+}
+button {
+  width: 200px;
+  height: 200px;
+}
+
+.pianoKey {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  flex: 1;
+  transition: background-color 0.5s;
+}
+
+#keyboard {
+  max-width: 80vw;
+}
+#toprow {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+#bottomrow {
+  display: flex;
+  flex-direction: row;
+}
+
+h1 {
+  font-family: "Sawarabi Mincho", sans-serif;
+  color: rgba(143, 55, 143, 1);
+  margin: 5px;
+}
+
+p {
+  font-family: "Roboto";
+  margin-top: 0px;
+}
+
+#textbox {
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  max-width: 500px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 25px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 15%;
+}
